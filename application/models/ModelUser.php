@@ -4,7 +4,7 @@ class ModelUser extends CI_Model
 {
     public function simpanData($data = null)
     {
-    $this->db->insert('user', $data);
+        $this->db->insert('user', $data);
     }
     public function cekData($where = null)
     {
